@@ -41,6 +41,15 @@ DJANGO_SYSTEM_APPS = [
 
 CUSTOM_USER_APPS = [
     "common.apps.CommonConfig",
+    "members.apps.MembersConfig",
+    "refresh_tokens.apps.RefreshTokensConfig",
+    "survey_questions.apps.SurveyQuestionsConfig",
+    "survey_responses.apps.SurveyResponsesConfig",
+    "images.apps.ImagesConfig",
+    "designs.apps.DesignsConfig",
+    "nonmem_emails.apps.NonmemEmailsConfig",
+
+
     "rest_framework",
     "rest_framework.authtoken",
 ]
